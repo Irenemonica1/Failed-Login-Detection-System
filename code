@@ -1,0 +1,8 @@
+```bash
+mkdir failed-login-detector
+cd failed-login-detector
+touch detect_failed_logins.py
+nano detect_failed_logins.py
+ssh wronguser@localhost # give random passwords multiple times
+sudo grep -a "Failed password" /var/log/auth.log
+sudo python3 detect_failed_logins.py
