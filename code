@@ -1,4 +1,3 @@
-```bash
 mkdir failed-login-detector
 cd failed-login-detector
 touch detect_failed_logins.py
