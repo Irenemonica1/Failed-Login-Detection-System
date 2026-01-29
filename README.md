@@ -12,6 +12,3 @@ Detect brute-force SSH login attempts by analyzing Linux authentication logs and
 3. Extracts source IP addresses (IPv4 & IPv6)
 4. Counts failed attempts per IP
 5. Generates alert when threshold is exceeded
-## How to Run
-```bash
-sudo python3 detect_failed_logins.py
